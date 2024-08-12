@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+    display: flex;
+}
+
 .img {
     height: 100vh;
     width: 35%;
@@ -30,4 +34,53 @@ a {
     text-decoration: none;
     color: white;
     text-shadow: 0 0 7px #000000, 0 0 7px #000000;
+}
+
+.form-text {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 70px;
+    background-color: rgb(214, 214, 214);
+}
+
+.form-inputs {
+    padding: 30px;
+    padding-left: 70px;
+}
+
+.form-inputs > p {
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.button-section {
+    background-color: rgb(214, 214, 214);
+    height: 195px;
+    padding: 30px;
+    padding-left: 70px;
+}
+
+.button-section > .login {
+    color: #596D48;
+}
+
+.account-button {
+    border-radius: 8px;
+    background-color: #596D48;
+    border: none;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+}
+
+input, label {
+    display: block;
+}
+
+input {
+    width: 300px;
+    height: 20px;
+    margin-bottom: 10px;
 }
